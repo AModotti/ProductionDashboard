@@ -1,0 +1,100 @@
+*{font-family: 'Courier New',Courier,monospace;}
+
+#tabs {
+    border: none;
+}
+
+#div_ortolani54 {
+    position: absolute;
+    border: 3px solid black;
+    display:inline-block;
+    width: 1280px;
+    height: 768px;
+}
+
+#div_ortolani54 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#div_malignani14 {
+    position: absolute;
+    border: 3px solid black;
+    display:inline-block;
+    width: 1280px;
+    height: 768px;
+}
+
+#div_malignani14 img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.machine {
+    position: absolute;
+    cursor: pointer; 
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#button_1{
+    position: absolute;
+    top: -35px;
+    left: -5px;
+    width: 150px;
+    height: 30px;
+}
+
+#button_2{
+    position: absolute;
+    top: -35px;
+    left: -5px;
+    width: 150px;
+    height: 30px;
+}
+
+#defaults{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+#tracking{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+#hidetabs{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+}
+
+#hidelayoutbuttons{
+    position: absolute;
+    top: 390px;
+    left: 25px;
+}
+
+#managelocalstorage{
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+#div_password {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+.connectionerror{
+    background-color: red;
+}

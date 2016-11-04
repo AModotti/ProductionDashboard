@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- JQUERY CORE LIBRARIES -->
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <!-- JQUERY CSS LIBRARIES -->
+        <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <!-- MY JQUERY -->
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <!-- MACHINES -->
+        <script src="ViaOrtolani54_Machines.js"></script>
+        <script src="ViaMalignani14_Machines.js"></script>
+        <title>Production Monitor</title>
+    </head>
+    <body>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tab1" id="li1">Attimis: Via Degli Ortolani,54</a></li>
+                <li><a href="#tab2" id="li2">Attimis: Via Malignani,14</a></li>
+                <li><a href="#tab3" id="li3">Villa Santina: Via Divisione Julia,22</a></li>
+                <li><a href="#tab4" id="li4">Villa Santina: Via Divisione Julia,35</a></li>
+                <li><a href="#tab5">Impostazioni</a></li>
+            </ul>
+            <div id="tab1">
+                <div id="div_ortolani54" style="z-index: 0;">
+                    <input type="button" id="button_1" value="Modifica Layout" style="z-index: 2;"/>
+                    <div id="div_1000000" class="machine" style="z-index: 1;"><a id="a_1000000">1000000</a><input type="hidden" id="h_1000000"/></div>
+                    <div id="div_1000053" class="machine" style="z-index: 1;"><a id="a_1000053">1000053</a><input type="hidden" id="h_1000053"/></div>
+                    <div id="div_1000054" class="machine" style="z-index: 1;"><a id="a_1000054">1000054</a><input type="hidden" id="h_1000054"/></div>
+                    <div id="div_1000038" class="machine" style="z-index: 1;"><a id="a_1000038">1000038</a><input type="hidden" id="h_1000038"/></div>
+                    <div id="div_1000060" class="machine" style="z-index: 1;"><a id="a_1000060">1000060</a><input type="hidden" id="h_1000060"/></div>
+                    <div id="div_1000019" class="machine" style="z-index: 1;"><a id="a_1000019">1000019</a><input type="hidden" id="h_1000019"/></div>
+                    <div id="div_1000045" class="machine" style="z-index: 1;"><a id="a_1000045">1000045</a><input type="hidden" id="h_1000045"/></div>
+                    <div id="div_1000020" class="machine" style="z-index: 1;"><a id="a_1000020">1000020</a><input type="hidden" id="h_1000020"/></div>
+                    <div id="div_1000037" class="machine" style="z-index: 1;"><a id="a_1000037">1000037</a><input type="hidden" id="h_1000037"/></div>
+                    <div id="div_1000061" class="machine" style="z-index: 1;"><a id="a_1000061">1000061</a><input type="hidden" id="h_1000061"/></div>
+                    <div id="div_1000032" class="machine" style="z-index: 1;"><a id="a_1000032">1000032</a><input type="hidden" id="h_1000032"/></div>
+                    <div id="div_1000033" class="machine" style="z-index: 1;"><a id="a_1000033">1000033</a><input type="hidden" id="h_1000033"/></div>
+                    <div id="div_1000034" class="machine" style="z-index: 1;"><a id="a_1000034">1000034</a><input type="hidden" id="h_1000034"/></div>
+                    <div id="div_1000022" class="machine" style="z-index: 1;"><a id="a_1000022">1000022</a><input type="hidden" id="h_1000022"/></div>
+                    <div id="div_1000001" class="machine" style="z-index: 1;"><a id="a_1000001">1000001</a><input type="hidden" id="h_1000001"/></div>
+                    <div id="div_1000111" class="machine" style="z-index: 1;"><a id="a_1000111">1000111</a><input type="hidden" id="h_1000111"/></div>
+                    <div id="div_1000028" class="machine" style="z-index: 1;"><a id="a_1000028">1000028</a><input type="hidden" id="h_1000028"/></div>
+                    <div id="div_1000035" class="machine" style="z-index: 1;"><a id="a_1000035">1000035</a><input type="hidden" id="h_1000035"/></div>
+                    <div id="div_1000041" class="machine" style="z-index: 1;"><a id="a_1000041">1000041</a><input type="hidden" id="h_1000041"/></div>
+                    <div id="div_1000059" class="machine" style="z-index: 1;"><a id="a_1000059">1000059</a><input type="hidden" id="h_1000059"/></div>
+                    <div id="div_1000039" class="machine" style="z-index: 1;"><a id="a_1000039">1000039</a><input type="hidden" id="h_1000039"/></div>
+                    <div id="div_1000057" class="machine" style="z-index: 1;"><a id="a_1000057">1000057</a><input type="hidden" id="h_1000057"/></div>
+                    <div id="div_1000004" class="machine" style="z-index: 1;"><a id="a_1000004">1000004</a><input type="hidden" id="h_1000004"/></div>
+                    <div id="div_1000031" class="machine" style="z-index: 1;"><a id="a_1000031">1000031</a><input type="hidden" id="h_1000031"/></div>
+                    <div id="div_1000062" class="machine" style="z-index: 1;"><a id="a_1000062">1000062</a><input type="hidden" id="h_1000062"/></div>
+                    <div id="div_1000010" class="machine" style="z-index: 1;"><a id="a_1000010">1000010</a><input type="hidden" id="h_1000010"/></div>
+                    <div id="div_1000063" class="machine" style="z-index: 1;"><a id="a_1000063">1000063</a><input type="hidden" id="h_1000063"/></div>
+                    <div id="div_1000015" class="machine" style="z-index: 1;"><a id="a_1000015">1000015</a><input type="hidden" id="h_1000015"/></div>
+                    <div id="div_1000089" class="machine" style="z-index: 1;"><a id="a_1000089">1000089</a><input type="hidden" id="h_1000089"/></div>
+                    <div id="div_1000091" class="machine" style="z-index: 1;"><a id="a_1000091">1000091</a><input type="hidden" id="h_1000091"/></div>
+                    <div id="div_1000005" class="machine" style="z-index: 1;"><a id="a_1000005">1000005</a><input type="hidden" id="h_1000005"/></div>
+                    <div id="div_1000006" class="machine" style="z-index: 1;"><a id="a_1000006">1000006</a><input type="hidden" id="h_1000006"/></div>
+                    <div id="div_1000008" class="machine" style="z-index: 1;"><a id="a_1000008">1000008</a><input type="hidden" id="h_1000008"/></div>
+                    <div id="div_1000047" class="machine" style="z-index: 1;"><a id="a_1000047">1000047</a><input type="hidden" id="h_1000047"/></div>
+                    <div id="div_1000016" class="machine" style="z-index: 1;"><a id="a_1000016">1000016</a><input type="hidden" id="h_1000016"/></div>
+                    <div id="div_1000007" class="machine" style="z-index: 1;"><a id="a_1000007">1000007</a><input type="hidden" id="h_1000007"/></div>
+                    <div id="div_1000017" class="machine" style="z-index: 1;"><a id="a_1000017">1000017</a><input type="hidden" id="h_1000017"/></div>
+                    <div id="div_20MNTG_1" class="machine" style="z-index: 1;"><a id="a_20MNTG_1">20MNTG</a><input type="hidden" id="h_20MNTG_1"/></div>
+                    <div id="div_20IMBL_1" class="machine" style="z-index: 1;"><a id="a_20IMBL_1">20IMBL</a><input type="hidden" id="h_20IMBL_1"/></div>
+                    <div id="div_20CLLD_1" class="machine" style="z-index: 1;"><a id="a_20CLLD_1">20CLLD</a><input type="hidden" id="h_20CLLD_1"/></div>
+                </div>
+            </div>
+            <div id="tab2">
+                <div id="div_malignani14" style="z-index: 0;">
+                    <input type="button" id="button_2" value="Modifica Layout" style="z-index: 2;"/>
+                    <div id="div_1000014" class="machine" style="z-index: 1;"><a id="a_1000014">1000014</a><input type="hidden" id="h_1000014"/></div>
+                    <div id="div_1000018" class="machine" style="z-index: 1;"><a id="a_1000018">1000018</a><input type="hidden" id="h_1000018"/></div>
+                    <div id="div_1000021" class="machine" style="z-index: 1;"><a id="a_1000021">1000021</a><input type="hidden" id="h_1000021"/></div>
+                    <div id="div_1000024" class="machine" style="z-index: 1;"><a id="a_1000024">1000024</a><input type="hidden" id="h_1000024"/></div>
+                    <div id="div_1000025" class="machine" style="z-index: 1;"><a id="a_1000025">1000025</a><input type="hidden" id="h_1000025"/></div>
+                    <div id="div_1000026" class="machine" style="z-index: 1;"><a id="a_1000026">1000026</a><input type="hidden" id="h_1000026"/></div>
+                    <div id="div_1000027" class="machine" style="z-index: 1;"><a id="a_1000027">1000027</a><input type="hidden" id="h_1000027"/></div>
+                    <div id="div_1000051" class="machine" style="z-index: 1;"><a id="a_1000051">1000051</a><input type="hidden" id="h_1000051"/></div>
+                    <div id="div_1000095" class="machine" style="z-index: 1;"><a id="a_1000095">1000095</a><input type="hidden" id="h_1000095"/></div>
+                    <div id="div_20MNTG_2" class="machine" style="z-index: 1;"><a id="a_20MNTG_2">20MNTG</a><input type="hidden" id="h_20MNTG_2"/></div>
+                </div>
+            </div>
+            <div id="tab3"></div>
+            <div id="tab4"></div>
+            <div id="tab5">
+                <div id="div_password" title="Enter Password">
+                    <p><b>Per poter modificare le impostazioni è necessario inserire la password.</b></p>
+                    <label for="password">Password</label>&nbsp;<input type="password" size="25" id="password"/>
+                    <input type="button" id="button-password" value="Ok"/>
+                </div>
+                <div id="settings">
+                    <div id="defaults">
+                        <p><b>Defaults:</b></p>
+                        <input type="submit" id="button-defaults" value="Ripristina impostazioni di default" />
+                    </div>
+                    <br>
+                    <br>
+                    <div id="tracking">
+                        <p><b>Abilitazione Tracking:</b></p>
+                        <input type="checkbox" id="enablepostracking" value="ON" />&nbsp;<label id="label_postracking" for="enablepostracking">Abilita tracking della posizione</label>
+                        <br>
+                        <input type="checkbox" id="enablesizetracking" value="ON" />&nbsp;<label id="label_sizetracking" for="enablesizetracking">Abilita tracking della dimensione</label>
+                    </div>
+                    <br>
+                    <br>
+                    <div id="hidetabs">
+                        <p><b>Visualizzazione Tabs:</b></p>
+                        <input type="checkbox" id="hidetab1" value="ON" />&nbsp;<label id="label_hidetab1" for="hidetab1">Nascondi Tab Via Ortolani, 54</label>
+                        <br>
+                        <input type="checkbox" id="hidetab2" value="ON" />&nbsp;<label id="label_hidetab2" for="hidetab1">Nascondi Tab Via Malignani, 14</label>
+                        <br>
+                        <input type="checkbox" id="hidetab3" value="ON" />&nbsp;<label id="label_hidetab3" for="hidetab1">Nascondi Tab Via Divisione Julia, 22</label>
+                        <br>
+                        <input type="checkbox" id="hidetab4" value="ON" />&nbsp;<label id="label_hidetab4" for="hidetab1">Nascondi Tab Via Divisione Julia, 35</label>
+                    </div>
+                    <div id="hidelayoutbuttons">
+                        <p><b>Visualizzazione Pulsanti Modifica Layout:</b></p>
+                        <input type="checkbox" id="hidelayoutbuttons1" value="ON" />&nbsp;<label id="label_hidelayoutbuttons1" for="hidetab1">Nascondi pulsante modifica layout Via Ortolani, 54</label>
+                        <br>
+                        <input type="checkbox" id="hidelayoutbuttons2" value="ON" />&nbsp;<label id="label_hidelayoutbuttons2" for="hidetab1">Nascondi pulsante modifica layout Via Malignani, 14</label>
+                        <br>
+                        <input type="checkbox" id="hidelayoutbuttons3" value="ON" />&nbsp;<label id="label_hidelayoutbuttons3" for="hidetab1">Nascondi pulsante modifica layout Via Divisione Julia, 22</label>
+                        <br>
+                        <input type="checkbox" id="hidelayoutbuttons4" value="ON" />&nbsp;<label id="label_hidelayoutbuttons4" for="hidetab1">Nascondi pulsante modifica layout Via Divisione Julia, 35</label>
+                    </div>
+                    <div id="managelocalstorage">
+                        <p><b>Gestione Configurazione:</b></p>
+                        Esporta Configurazione
+                        <br>
+                        <input type="button" value="Salva" id="button-export"/>
+                        <br>
+                        <br>
+                        Importa Configurazione
+                        <br>
+                        <input type="file" id="file" name="file" />
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </body>
+</html>

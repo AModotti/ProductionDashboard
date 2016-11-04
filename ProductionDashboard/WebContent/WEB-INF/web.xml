@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>GetMachineData</servlet-name>
+    <servlet-class>bin.GetMachineData</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WriteSettings</servlet-name>
+    <servlet-class>bin.WriteSettings</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetMachineData</servlet-name>
+    <url-pattern>/GetMachineData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WriteSettings</servlet-name>
+    <url-pattern>/WriteSettings</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+</web-app>
